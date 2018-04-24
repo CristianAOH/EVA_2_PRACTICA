@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aplicacion.nombre.eva2_3_intentos_ver_contactos.Principal">
+
+    <Button
+        android:id="@+id/btn_mostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Click"
+        android:text="Mostrar contactos" />
+
+    <EditText
+        android:id="@+id/edTxt_busqueda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Busqueda"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Buscar"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/btn_imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verImagen"
+        android:text="Ver imagen" />
+
+</LinearLayout>
